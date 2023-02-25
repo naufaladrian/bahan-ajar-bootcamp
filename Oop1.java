@@ -19,8 +19,15 @@ public class Oop1 {
         ClassImplementInterface2 interface2 = new ClassImplementInterface2();
         interface2.displayHello();
         System.out.println(interface2.addName());
-
         interface2.greet("naufal");
+
+
+        // object dari outer class "BahanInnerClass"
+        BahanInnerClass objectTest = new BahanInnerClass();
+        objectTest.company="PT XYZ";
+        // object dari inner class "Employee"
+        BahanInnerClass.Employee karyawan = objectTest.new Employee();
+        karyawan.name="naufal";
 
     }
 }

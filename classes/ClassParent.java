@@ -1,7 +1,10 @@
 package classes;
 
-public abstract class ClassParent {
+public  class ClassParent {
     String fieldParent1 = "fieldParent1";
     String fieldParent2= "fieldParent2";
-    public abstract void sayHello();//abstract method
+//    Method ini tidak bisa di override
+    final public void sayHello(){
+        System.out.println("Hello World from class parent");
+    };
 }

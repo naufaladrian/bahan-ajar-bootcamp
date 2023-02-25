@@ -13,5 +13,6 @@ KeyWord :
 5. getter => mendapatkan value dari field
 6. setter => mengubah value dari field
 
-7. superclass => istilah lain dari class parent
-8. subclass => istilah lain dari class child
+7. super class => istilah lain dari class parent
+8. sub class => istilah lain dari class child
+9. inner class => class dalam class

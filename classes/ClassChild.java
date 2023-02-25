@@ -9,9 +9,11 @@ public class ClassChild extends ClassParent {
     }
     public ClassChild() {
     }
-    public void sayHello(){
-        System.out.println("child 1");
-    }
+
+//    Error karena tidak bisa override method final
+//    public void sayHello(){
+//        System.out.println("child 1");
+//    }
     @Override
     public String toString() {
         return "ClassChild{" +
