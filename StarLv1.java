@@ -1,6 +1,11 @@
 public class StarLv1 {
+   static private void sayHello(){
+        System.out.println("Hello World");
+    }
     public static void main(String[] args) {
 
+    StarLv1 meth = new StarLv1();
+    meth.sayHello();
 
 
         for (int i= 1;i<=4;i++){

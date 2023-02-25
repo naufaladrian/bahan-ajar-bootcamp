@@ -7,16 +7,13 @@ public class ClassPrivate {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public int getSaldo() {
         return saldo;
     }
-
-    public void ubahSaldo(int saldo) {
+    public void setSaldo(int saldo) {
         this.saldo = saldo;
     }
 }

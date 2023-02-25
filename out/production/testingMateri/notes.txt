@@ -1,0 +1,17 @@
+KeyWord : 
+
+1. Class => cetakan/blueprint untuk membuat object
+			analogi : formulir dalam bentuk file, yang nantinya akan dicetak
+
+2. Field => data/properti yang ada dalam class
+			analogi : data yang akan diisi ketika membuat object
+
+3. object => data yang berisi lebih dari sati field/properti dari class yang telah dibuat
+				analogi : formulir yang dicetak/diprint untuk diisi
+
+4. private => access modifier yang berfungsi agar data tidak sembarangan diakses
+5. getter => mendapatkan value dari field
+6. setter => mengubah value dari field
+
+7. superclass => istilah lain dari class parent
+8. subclass => istilah lain dari class child

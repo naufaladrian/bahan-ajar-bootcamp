@@ -1,21 +1,17 @@
 package classes;
 
-public abstract class ClassChild extends ClassParent {
+public class ClassChild extends ClassParent {
     public String karyawan ;
     public String address;
-
     public ClassChild(String karyawan, String address) {
         this.karyawan = karyawan;
         this.address = address;
     }
-
     public ClassChild() {
     }
-
     public void sayHello(){
         System.out.println("child 1");
     }
-
     @Override
     public String toString() {
         return "ClassChild{" +
